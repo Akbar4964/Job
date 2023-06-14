@@ -1,0 +1,25 @@
+.demo {
+    padding-top: 35px;
+    text-align: end;
+
+    &__link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__linc {
+        padding-left: 61px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #303F9F;
+    }
+}

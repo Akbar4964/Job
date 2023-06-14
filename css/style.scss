@@ -1,0 +1,45 @@
+@import "_demo";
+@import "_less";
+@import "_track";
+@import "_paid";
+@import "_positive";
+@import "_auto";
+@import "_built";
+@import "_business";
+@import "_plan";
+@import "_square";
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.body {
+    background-color: #5D92E1;
+    height: auto;
+    width: auto;
+    background-image: url(/img/body-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}

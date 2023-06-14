@@ -1,0 +1,51 @@
+.paid {
+    padding-top: 115px;
+    padding-bottom: 96px;
+    background-color: #2B2E44;
+    height: auto;
+
+    &__title {
+        max-width: 434px;
+        padding-bottom: 147px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 46px;
+        color: #FFFFFF;
+    }
+
+    &__head {
+        display: flex;
+        align-items: center;
+        padding-top: 39px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 27px;
+        color: #FFFFFF;
+
+        img {
+            padding-right: 24px;
+        }
+    }
+
+    &__text {
+        padding-left: 80px;
+        max-width: 317px;
+        padding-top: 9px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
